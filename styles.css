@@ -58,12 +58,6 @@ body {
     box-shadow: 2px 2px 10px black;
 }
 
-#userImage {
-    position: absolute;
-    right: 0;
-    filter: drop-shadow(2px 2px 10px black);
-}
-
 #aiImage {
     position: absolute;
     left: 0;
@@ -108,34 +102,8 @@ body {
     background-color: rgba(0, 0, 0, 0.338);
 }
 
-.load {
-    filter: drop-shadow(2px 2px 10px black);
-}
-
 .chooseimg {
-    width: 30%;
+    width: 10%;
     border-radius: 30px;
     margin-top: 10px;
-}
-
-.choose {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-#image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (max-width: 600px) {
-    .user-chat-box {
-        width: 80%;
-        left: 20%;
-    }
-    .ai-chat-box {
-        width: 80%;
-    }
 }
