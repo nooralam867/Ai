@@ -12,7 +12,7 @@ function getRecentImage() {
     // Simulated file data (base64-encoded string)
     return {
         mime_type: "image/png",
-        data: "iVBORw0KGgoAAAANSUhEUgAAAAUA"
+        data: "AIzaSyBacs-f252IdAP2qfK0Tja56BPI0jyZoeM"
     };
 }
 
